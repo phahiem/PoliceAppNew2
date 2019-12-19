@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+     android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="162dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sindh Police"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit our Forums!"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="335dp"
+
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+
+
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="website"
+            android:src="@drawable/rss" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="facebook"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="youtube"
+            android:src="@drawable/youtube" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="331dp"
+
+
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+
+
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="linkedin"
+            android:src="@drawable/linkedin" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="twitter"
+            android:src="@drawable/twitter" />
+
+        <ImageButton
+
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="instagram"
+            android:src="@drawable/instagram" />
+
+
+    </LinearLayout>
+
+
+    <ImageButton
+
+        android:layout_width="97dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="contact"
+        android:src="@drawable/contact" />
+
+</LinearLayout>
