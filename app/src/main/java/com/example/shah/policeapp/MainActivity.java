@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void facebook(View view) {
 
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/pages/category/Government-Organization/Sindh-Police-CPO-1905216799716807/"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/sindhpolicedmc/"));
         startActivity(browserIntent);
     }
 
 
     public void youtube(View view) {
 
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCRsS4qUxeej46Z8KNSNp9fA"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UChlhwMjYOycJu3gG3kYfIKQ"));
         startActivity(browserIntent);
     }
 
