@@ -7,8 +7,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@color/colorPrimaryDark"
-     android:padding="5dp"
+    android:background="@drawable/police3"
+    android:padding="5dp"
+
     tools:context=".MainActivity">
 
 
@@ -21,8 +22,9 @@
 
 
         <ImageView
-            android:layout_width="162dp"
-            android:layout_height="115dp"
+
+            android:layout_width="239dp"
+            android:layout_height="165dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:src="@drawable/logo" />
@@ -51,114 +53,103 @@
 
 
     <LinearLayout
-        android:layout_width="335dp"
+        android:layout_width="fill_parent"
 
 
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="60dp"
         android:orientation="horizontal">
 
 
         <ImageButton
 
-
-            android:layout_width="100dp"
-
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="25dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@drawable/explorer"
+
+            android:layout_marginStart="24dp"
             android:onClick="website"
-            android:src="@drawable/rss" />
+            android:scaleType="fitXY"
+            android:src="@drawable/explorer" />
 
         <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-
-
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="25dp"
-            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/facebook"
             android:onClick="facebook"
+            android:scaleType="fitXY"
             android:src="@drawable/facebook" />
 
         <ImageButton
 
-            android:layout_width="100dp"
-
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginLeft="50dp"
+
+            android:background="@drawable/youtube"
             android:onClick="youtube"
+            android:scaleType="fitXY"
             android:src="@drawable/youtube" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="331dp"
+        android:layout_width="fill_parent"
 
 
-        android:layout_height="112dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="1dp"
-        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="50dp"
         android:orientation="horizontal">
 
 
         <ImageButton
 
-
-            android:layout_width="100dp"
-
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="25dp"
-            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginStart="24dp"
+            android:background="@drawable/linkedin"
+
             android:onClick="linkedin"
+            android:scaleType="fitXY"
             android:src="@drawable/linkedin" />
 
         <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-
-
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:layout_marginRight="25dp"
-            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/twitter"
             android:onClick="twitter"
+            android:scaleType="fitXY"
             android:src="@drawable/twitter" />
 
         <ImageButton
 
-            android:layout_width="100dp"
-
-            android:layout_height="100dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="25dp"
-            android:background="@color/colorPrimaryDark"
+
+            android:layout_marginLeft="50dp"
+
+            android:background="@drawable/instagram"
             android:onClick="instagram"
+            android:scaleType="fitXY"
             android:src="@drawable/instagram" />
 
 
     </LinearLayout>
 
-
-    <ImageButton
-
-        android:layout_width="97dp"
-        android:layout_height="58dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:background="@color/colorPrimaryDark"
-        android:onClick="contact"
-        android:src="@drawable/contact" />
 
 </LinearLayout>
