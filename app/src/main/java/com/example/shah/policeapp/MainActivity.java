@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void linkedin(View view) {
 
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/sindh-police-digital-media-b751a119a"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/company/sindh-police-digital-media"));
         startActivity(browserIntent);
     }
 
